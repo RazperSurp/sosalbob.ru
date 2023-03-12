@@ -1,0 +1,10 @@
+div.form-input:not(:last-of-type) {
+    padding-bottom: .5rem; 
+    border-bottom: 1px solid var(--accent-color);
+    margin-bottom: .5rem;
+}
+
+div.form-input input {
+    display: block;
+    width: 100%;
+}
